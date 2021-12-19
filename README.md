@@ -20,13 +20,6 @@ In the file, "evaluation.py", you can find the matrix below which defines each w
 
 For example, if you put your piece in a corner, the evaluation of the board will be added 120.  
 
-## Schedule
-
-I will add following functions.
-
-- To skip their turn when either player has no place to put their tile on the board.
-- A function which allows to change any tile on the board. This will help to fix the board when you misplaced your tile.
-
 ## Japanese
 
 リバーシ（オセロ）の対戦コンピューターです．
