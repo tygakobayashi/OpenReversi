@@ -6,16 +6,16 @@ The algorithm for Reversi consists of two principles.
 
 ## Board evaluation
 In the file, "evaluation.py", you can find the matrix below which defines each weight of the board.  
-  [  
-        [120, -20, 20,  5,  5,  20, -20, 120],  
-        [-20, -40, -5, -5, -5,  15, -40, -20],  
-        [ 20,  -5, 15,  3,  3,  15,  -5,  20],  
-        [  5,  -5,  3,  3,  3,   3,  -5,   5],  
-        [  5,  -5,  3,  3,  3,   3,  -5,   5],  
-        [ 20,  -5, 15,  3,  3,  15,  -5,  20],  
-        [-20, -40, -5, -5, -5,  15, -40, -20],  
-        [120, -20, 20,  5,  5,  20, -20, 120],  
-    ]  
+
+[120, -20, 20,  5,  5,  20, -20, 120],  
+[-20, -40, -5, -5, -5,  15, -40, -20],  
+[ 20,  -5, 15,  3,  3,  15,  -5,  20],  
+[  5,  -5,  3,  3,  3,   3,  -5,   5],  
+[  5,  -5,  3,  3,  3,   3,  -5,   5],  
+[ 20,  -5, 15,  3,  3,  15,  -5,  20],  
+[-20, -40, -5, -5, -5,  15, -40, -20],  
+[120, -20, 20,  5,  5,  20, -20, 120],  
+
 For example, if you put your piece in a corner, the evaluation of the board will be added 120.  
 
 ## Japanese
